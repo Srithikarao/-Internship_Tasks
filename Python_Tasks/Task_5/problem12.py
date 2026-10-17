@@ -1,0 +1,11 @@
+# problem 12: Capitalize!
+# hackerrank : https://www.hackerrank.com/challenges/capitalize/problem
+def solve(s):
+      return " ".join([name.capitalize() for name in s.split(" ")])
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    s = input()
+    result = solve(s)
+    fptr.write(result + '\n')
+    fptr.close()
+
