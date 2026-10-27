@@ -1,0 +1,9 @@
+
+
+# problem 1 : Revising the Select Query I	
+# hackerrank : https://www.hackerrank.com/challenges/revising-the-select-query/problem
+
+SELECT *
+FROM CITY
+WHERE COUNTRYCODE = 'USA'
+  AND POPULATION > 100000;
